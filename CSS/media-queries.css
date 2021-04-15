@@ -65,7 +65,28 @@ ul{
 }
 
 @media screen and (min-width:500px) {
-    selector {
-        property: value;
+    .alert-info {
+        display: none;
     }
+
+    h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        max-width: 50%;
+        float: left;
+    }
+
+    li {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        border: none;
+        background-color: white;
+        height: 1em;
+        align-items: flex-end;
+        margin: 0.5em;
+        width: 1em;
+    }
+
 }
