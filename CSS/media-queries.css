@@ -1,0 +1,46 @@
+body {
+    align-content: center;
+
+
+}
+.alert-info {
+    display: flex;
+    justify-content: center;
+    border: gray 1px solid;
+    background-color: rgb(200, 255, 255);
+    height: 4em;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-links {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+li {
+    display: flex;
+    justify-content: center;
+    border: gray 1px solid;
+    background-color: rgb(200, 200, 200);
+    height: 4em;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:500px) {
+    selector {
+        property: value;
+    }
+}
