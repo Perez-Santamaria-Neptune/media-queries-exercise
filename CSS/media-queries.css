@@ -20,10 +20,32 @@ h1 {
     justify-content: center;
 
 }
+
+.sub-section {
+    font-style: italic;
+}
+
+footer {
+    padding-top: 5em;
+}
+
+.header-img {
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin: 0 1em;
+}
+
 .nav-links {
     padding-left: 1em;
     padding-right: 1em;
 }
+
+section {
+    justify-content: center;
+    margin: 0 1em;
+}
+
 li {
     display: flex;
     justify-content: center;
@@ -32,7 +54,9 @@ li {
     height: 4em;
     align-items: center;
     flex-direction: column;
+
 }
+
 ul{
     display: flex;
     flex-direction: column;
