@@ -40,6 +40,7 @@ footer {
     display: flex;
     justify-items: center;
     padding-left: 0;
+
 }
 
 section {
@@ -65,7 +66,34 @@ ul{
 }
 
 @media screen and (min-width:500px) {
-    selector {
-        property: value;
+    .alert-info {
+        display: none;
     }
+
 }
+
+
+    h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        max-width: 50%;
+        float: left;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        background-color: white;
+        height: 1em;
+        margin: 0.5em;
+        width: 1em;
+        padding-right: 2em;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
